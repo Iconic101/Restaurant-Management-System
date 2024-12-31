@@ -19,7 +19,7 @@ function App() {
       <h4>Mitho Bites</h4>
     </nav>
         <div className="App">
-        <Home/>
+       <>  <Home/></>
 <Routes>
 
 <Route path='/Tables' element={<Tables/>}/>
