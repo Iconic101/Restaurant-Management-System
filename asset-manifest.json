@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Management-System/static/css/main.0ba55cb8.css",
+    "main.js": "/Restaurant-Management-System/static/js/main.d5704fe6.js",
+    "static/js/488.dde0df35.chunk.js": "/Restaurant-Management-System/static/js/488.dde0df35.chunk.js",
+    "index.html": "/Restaurant-Management-System/index.html",
+    "main.0ba55cb8.css.map": "/Restaurant-Management-System/static/css/main.0ba55cb8.css.map",
+    "main.d5704fe6.js.map": "/Restaurant-Management-System/static/js/main.d5704fe6.js.map",
+    "488.dde0df35.chunk.js.map": "/Restaurant-Management-System/static/js/488.dde0df35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ba55cb8.css",
+    "static/js/main.d5704fe6.js"
+  ]
+}
