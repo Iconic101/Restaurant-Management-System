@@ -19,9 +19,9 @@ function App() {
       <h4>Mitho Bites</h4>
     </nav>
         <div className="App">
-       <>  <Home/></>
+      
 <Routes>
-
+<Route path="/" element ={<Home/>}/>
 <Route path='/Tables' element={<Tables/>}/>
 <Route path='/Tables/:id' element={<Table/>}/>
 
