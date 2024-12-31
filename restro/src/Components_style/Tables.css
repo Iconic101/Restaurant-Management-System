@@ -1,0 +1,60 @@
+/* Main layout container */
+.restaurant-layout {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 90vh;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+  *{
+    text-decoration: none;
+    color :black
+  }
+  
+  /* Styling for each table block */
+  .table-block {
+    width: 120px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #333; */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .table-block:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Occupied and available styling */
+  .table-block.occupied {
+    background-color: #ffcccc;
+  }
+  
+  .table-block.available {
+    background-color: #ccffcc;
+  }
+  
+  /* Table label and seat count */
+  .table-label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .table-seats {
+    font-size: 14px;
+  }
+  
