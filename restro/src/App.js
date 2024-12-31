@@ -11,6 +11,7 @@ import OldOrder from './components/DynamicRoutes/OldOrder'
 
 
 function App() {
+  let site_name = "/Restaurant-Management-System/"
   return (
     <>
 
